@@ -14,8 +14,12 @@ import org.springframework.web.bind.annotation.PostMapping;
 
 @Controller
 public class UserController {
-    @Autowired
+    final
     UserService us;
+
+    public UserController(UserService us) {
+        this.us = us;
+    }
 
     @GetMapping("/index")
     public String cars(@ModelAttribute("user") User user, Model model) {

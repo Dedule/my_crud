@@ -5,13 +5,17 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-@Component
+@Repository
 public class UserDAOImp implements UserDAO{
-    @Autowired
-    private SessionFactory sf;
+    private final SessionFactory sf;
+
+    public UserDAOImp(SessionFactory sf) {
+        this.sf = sf;
+    }
 
     public List<User> index() {
         return sf.getCurrentSession()
