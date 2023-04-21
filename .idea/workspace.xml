@@ -9,7 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc3e532c-1ec1-4a05-9597-537ebdf0f12f" name="Changes" comment="CRUD v1">
+    <list default="true" id="dc3e532c-1ec1-4a05-9597-537ebdf0f12f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,6 +68,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "spring.configuration.checksum": "4bc14158670dca7c37d0795a6895482f",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -187,6 +188,7 @@
       <option name="presentableId" value="Default" />
       <updated>1681995466369</updated>
       <workItem from="1681995467668" duration="18467000" />
+      <workItem from="1682061035954" duration="998000" />
     </task>
     <task id="LOCAL-00001" summary="Config ok">
       <created>1681998826618</created>
@@ -202,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682014099635</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fix1">
+      <created>1682061303400</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682061303400</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,6 +220,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Config ok" />
     <MESSAGE value="CRUD v1" />
-    <option name="LAST_COMMIT_MESSAGE" value="CRUD v1" />
+    <MESSAGE value="fix1" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix1" />
   </component>
 </project>
